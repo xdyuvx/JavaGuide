@@ -1267,7 +1267,7 @@ ORDER BY c.cust_name;
 | a5        | cust221  |
 | a7        | cust2217 |
 
-【问题】编写 SQL 语句，返回 `Customers` 表中的顾客名称（`cust_name`）和 `Orders` 表中的相关订单号（`order_num`），并按顾客名称再按订单号对结果进行升序排序。你可以尝试用两个不同的写法，一个使用简单的等连接语法，另外一个使用 INNER JOIN。
+【问题】编写 SQL 语句，返回 `Customers` 表中存在购买订单的顾客名称（`cust_name`）和 `Orders` 表中的相关订单号（`order_num`），并按顾客名称再按订单号对结果进行升序排序。你可以尝试用两个不同的写法，一个使用简单的等连接语法，另外一个使用 INNER JOIN。
 
 答案：
 
